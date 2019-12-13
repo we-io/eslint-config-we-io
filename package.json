@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-we-io",
+  "version": "1.0.0",
+  "description": "we.io GmbH ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ./tests/*.js --config=index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/we-io/eslint-config-we-io.git"
+  },
+  "keywords": [
+    "style guide",
+    "lint",
+    "we.io",
+    "es6",
+    "react",
+    "jsx",
+    "eslint"
+  ],
+  "author": "we.io GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/we-io/eslint-config-we-io/issues"
+  },
+  "homepage": "https://github.com/we-io/eslint-config-we-io#readme"
+}
