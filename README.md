@@ -1,6 +1,6 @@
 # @we.io/eslint-config
 
-Eslint config for my current preferences including prettier and SonarJS
+ESLint config with the current coding style at we.io GmbH.
 
 ## Install
 
