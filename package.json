@@ -1,8 +1,27 @@
 {
-  "name": "eslint-config-we-io",
+  "name": "@we.io/eslint-config",
   "version": "0.5.0",
   "description": "we.io GmbH ESLint config",
   "main": "base.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/we-io/eslint-config-we-io.git"
+  },
+  "keywords": [
+    "style guide",
+    "lint",
+    "we.io",
+    "es6",
+    "react",
+    "jsx",
+    "eslint"
+  ],
+  "author": "we.io GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/we-io/eslint-config-we-io/issues"
+  },
+  "homepage": "https://github.com/we-io/eslint-config-we-io#readme",
   "scripts": {
     "unused": "eslint-find-rules -u -n",
     "release": "standard-version",
@@ -24,23 +43,7 @@
     "eslint": "^6.8.0",
     "standard-version": "^7.0.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/we-io/eslint-config-we-io.git"
-  },
-  "keywords": [
-    "style guide",
-    "lint",
-    "we.io",
-    "es6",
-    "react",
-    "jsx",
-    "eslint"
-  ],
-  "author": "we.io GmbH",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/we-io/eslint-config-we-io/issues"
-  },
-  "homepage": "https://github.com/we-io/eslint-config-we-io#readme"
+  "peerDependencies": {
+    "eslint": "^6.0.0"
+  }
 }
