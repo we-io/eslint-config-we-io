@@ -1,6 +1,8 @@
 # @we.io/eslint-config
-
 ESLint config with the current coding style at we.io GmbH.
+
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-red.svg)](https://conventionalcommits.org)
+[![NPM version](https://img.shields.io/npm/v/@we.io/eslint-config)](https://www.npmjs.com/package/@we.io/eslint-config)
 
 ## Install
 
@@ -12,7 +14,7 @@ npm install @we.io/eslint-config --save-dev
 
 Add a `.eslintrc` file to your project
 
-```json
+```js
 {
     "extends": [
         "@we.io"
