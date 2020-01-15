@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/we-io/eslint-config-we-io/compare/v1.0.0...v1.1.0) (2020-01-15)
+
+
+### Features
+
+* add special configs for api und ui ([a2b931a](https://github.com/we-io/eslint-config-we-io/commit/a2b931a33dee1258d1399f4e404058d13101d001))
+* added badges to README ([cbd200f](https://github.com/we-io/eslint-config-we-io/commit/cbd200f35a4f46a003e16d383799ae0d92dca084))
+
+
+### Bug Fixes
+
+* removed old artifacts from README ([d4b9d5e](https://github.com/we-io/eslint-config-we-io/commit/d4b9d5ecde531adb676c869ccaf7e5aaf20da2a0))
+
 ## 1.0.0 (2020-01-14)
 
 
