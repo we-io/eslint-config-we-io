@@ -2,23 +2,24 @@
 /* eslint-disable sort-keys */
 
 module.exports = {
-  parser: '@typescript-eslint/parser',
-  extends: [
-    'plugin:jest/recommended',
-    'airbnb-typescript/base',
-  ],
+  parser: 'babel-eslint',
+  env: {
+    es6: true,
+  },
   parserOptions: {
     ecmaVersion: 2019,
     sourceType: 'module',
   },
+  extends: [
+    'plugin:jest/recommended',
+    'airbnb-typescript',
+  ],
   plugins: [
     '@typescript-eslint/eslint-plugin',
     'import',
+    'react',
     'jest',
   ],
-  env: {
-    'node': true,
-  },
   rules: {
     'linebreak-style': [
       'off',
@@ -30,32 +31,35 @@ module.exports = {
     ],
     'max-len': [
       2,
-      100,
+      120,
     ],
-    '@typescript-eslint/explicit-function-return-type': 1,
     'import/no-extraneous-dependencies': [
       'error',
       {
         'peerDependencies': true,
         'devDependencies': [
           'mocks/**/*',
-          'src/mongoDb/seed/**',
+          'src/stories/**',
           'src/setupTests.ts',
-          'test/**/*',
+          '__tests__/**/*',
           'jest/**/*',
-          'scripts/**/*',
+          '**/**/*.story.tsx',
         ],
       },
     ],
-    'no-plusplus': 1,
-    'consistent-return': 1,
+    'import/prefer-default-export': 1,
     'import/no-cycle': [
       1,
       {
-        'maxDepth': 5,
+        'maxDepth': 7,
       },
     ],
-    'import/no-named-as-default': 1,
+    'react/jsx-props-no-spreading': 1,
+    'consistent-return': 0,
+    'react/sort-comp': 1,
+    'react/no-array-index-key': 1,
+    'react/prop-types': 0,
+    'react/destructuring-assignment': 1,
     'jest/consistent-test-it': 2,
     'jest/expect-expect': 2,
     'jest/no-duplicate-hooks': 2,
@@ -68,5 +72,9 @@ module.exports = {
     'jest/prefer-expect-assertions': 2,
     'jest/prefer-hooks-on-top': 2,
     'jest/prefer-spy-on': 2,
+  },
+  globals: {
+    'window': true,
+    'jest/globals': true,
   },
 };
