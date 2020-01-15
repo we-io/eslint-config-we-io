@@ -12,7 +12,9 @@ npm install @we.io/eslint-config --save-dev
 
 ## Usage
 
-Add a `.eslintrc` file to your project
+Add a `.eslintrc` file to your project.
+
+#### For backend projects use:
 
 ```js
 {
@@ -26,6 +28,37 @@ Add a `.eslintrc` file to your project
     "root": true
 }
 ```
+
+or:
+
+```js
+{
+    "extends": [
+        "@we.io/eslint-config/api"
+    ],
+    "env": {
+        "node": true
+    },
+    // ignore configs in other directories
+    "root": true
+}
+```
+
+#### For UI projects use:
+
+```js
+{
+    "extends": [
+        "@we.io/eslint-config/ui"
+    ],
+    "env": {
+        "node": true
+    },
+    // ignore configs in other directories
+    "root": true
+}
+```
+
 
 ## Reminder
 
