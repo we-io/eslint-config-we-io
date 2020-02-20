@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.1](https://github.com/we-io/eslint-config-we-io/compare/v2.0.0...v2.0.1) (2020-02-20)
+
+
+### Bug Fixes
+
+* add eslint-plugin-mocha to package.json ([dce6cdb](https://github.com/we-io/eslint-config-we-io/commit/dce6cdb0fdc5ac43d5d1f53a5caf6ec002c4f1d8))
+
 ## [2.0.0](https://github.com/we-io/eslint-config-we-io/compare/v1.1.0...v2.0.0) (2020-02-20)
 
 
