@@ -14,7 +14,7 @@ npm install @we.io/eslint-config --save-dev
 
 Add a `.eslintrc` file to your project.
 
-#### For backend projects use:
+#### In general use the base config:
 
 ```js
 {
@@ -29,11 +29,12 @@ Add a `.eslintrc` file to your project.
 }
 ```
 
-or:
+#### For projects backend use:
 
 ```js
 {
     "extends": [
+        "@we.io" // base
         "@we.io/eslint-config/api"
     ],
     "env": {
@@ -44,11 +45,12 @@ or:
 }
 ```
 
-#### For UI projects use:
+#### For frontend projects use:
 
 ```js
 {
     "extends": [
+        "@we.io" // base
         "@we.io/eslint-config/ui"
     ],
     "env": {
