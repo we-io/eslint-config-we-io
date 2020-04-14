@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.2](https://github.com/we-io/eslint-config-we-io/compare/v2.0.1...v2.0.2) (2020-04-14)
+
+
+### Bug Fixes
+
+* removed babel-eslint as parser ([8260693](https://github.com/we-io/eslint-config-we-io/commit/82606931dd37c26d6bde219f3be40749728a793e))
+
 ### [2.0.1](https://github.com/we-io/eslint-config-we-io/compare/v2.0.0...v2.0.1) (2020-02-20)
 
 
