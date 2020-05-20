@@ -17,7 +17,7 @@ module.exports = {
       'off',
     ],
     'indent': 0,
-    "react/jsx-indent": 0,
+    'react/jsx-indent': 0,
     '@typescript-eslint/indent': [
       'error',
       2,

@@ -28,6 +28,7 @@ module.exports = {
           'src/setupTests.ts',
           'test/**/*',
           'scripts/**/*',
+          'test-setup/**/*',
         ],
       },
     ],
