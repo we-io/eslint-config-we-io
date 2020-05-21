@@ -21,25 +21,19 @@ Add a `.eslintrc` file to your project.
     "extends": [
         "@we.io"
     ],
-    "env": {
-        "node": true
-    },
     // ignore configs in other directories
     "root": true
 }
 ```
 
-#### For projects backend use:
+#### For backend projects use:
 
 ```js
 {
     "extends": [
-        "@we.io" // base
+        "@we.io", // base
         "@we.io/eslint-config/api"
     ],
-    "env": {
-        "node": true
-    },
     // ignore configs in other directories
     "root": true
 }
@@ -50,12 +44,9 @@ Add a `.eslintrc` file to your project.
 ```js
 {
     "extends": [
-        "@we.io" // base
+        "@we.io", // base
         "@we.io/eslint-config/ui"
     ],
-    "env": {
-        "node": true
-    },
     // ignore configs in other directories
     "root": true
 }
