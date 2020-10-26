@@ -1,6 +1,3 @@
-/* eslint sort-keys: ["error", "asc"], quote-props: ["error", "consistent"] */
-/* eslint-disable sort-keys */
-
 module.exports = {
   extends: [
     "plugin:jest/recommended",
@@ -11,13 +8,13 @@ module.exports = {
   ],
   rules: {
     "linebreak-style": ["off"],
-    indent: 0,
+    "indent": 0,
     "react/jsx-indent": 0,
     "@typescript-eslint/indent": ["error", 2],
     "max-len": [2, 120],
   },
   globals: {
-    window: true,
+    "window": true,
     "jest/globals": true,
   },
 };
