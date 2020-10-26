@@ -1,6 +1,6 @@
 # gitignore
 node_modules
-
+.eslintcache
 # Only apps should have lockfiles
 yarn.lock
 package-lock.json
