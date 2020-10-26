@@ -12,6 +12,7 @@ module.exports = {
     "react/jsx-indent": 0,
     "@typescript-eslint/indent": ["error", 2],
     "max-len": [2, 120],
+    "react/prop-types":0
   },
   globals: {
     "window": true,
