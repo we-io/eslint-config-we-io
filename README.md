@@ -1,4 +1,5 @@
 # @we.io/eslint-config
+
 ESLint config with the current coding style at we.io GmbH.
 
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-red.svg)](https://conventionalcommits.org)
@@ -52,7 +53,6 @@ Add a `.eslintrc` file to your project.
 }
 ```
 
-
 ## Reminder
 
 ESLint is a peerDependency, so you must install it as well
@@ -60,4 +60,3 @@ ESLint is a peerDependency, so you must install it as well
 ```bash
 npm install eslint --save-dev
 ```
-
