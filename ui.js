@@ -2,7 +2,7 @@ module.exports = {
   extends: [
     "plugin:jest/recommended",
     "airbnb-typescript",
-    "airbnb-hooks",
+    "airbnb/hooks",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
   ],
