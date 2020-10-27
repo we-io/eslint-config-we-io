@@ -25,8 +25,8 @@
   "scripts": {
     "unused": "eslint-find-rules -u -n",
     "release": "standard-version",
-    "lint": "eslint --cache -c .eslintrc --ext .js '.'",
-    "lint:fix": "eslint --cache -c .eslintrc --fix --ext .js '.'"
+    "lint": "eslint --cache -c base.js --ext .js '.'",
+    "lint:fix": "eslint --cache -c base.js --fix --ext .js '.'"
   },
   "dependencies": {
     "@typescript-eslint/parser": "^4.5.0",
@@ -56,7 +56,7 @@
   },
   "lint-staged": {
     "*.{ts,tsx,json}": [
-      "eslint --c .eslintrc --fix --quiet"
+      "eslint --c base.js --fix --quiet"
     ]
   }
 }

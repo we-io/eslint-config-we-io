@@ -9,7 +9,7 @@
   "eslint.validate": ["javascript", "json"],
   "git.autofetch": true,
   "eslint.options": {
-    "configFile": ".eslintrc"
+    "configFile": "base.js"
   },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
