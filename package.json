@@ -1,6 +1,6 @@
 {
   "name": "@we.io/eslint-config",
-  "version": "4.0.6",
+  "version": "4.0.7",
   "description": "we.io GmbH ESLint config",
   "main": "base.js",
   "repository": {
@@ -29,7 +29,7 @@
     "lint:fix": "eslint --cache -c base.js --fix --ext .js '.'"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/eslint-plugin": "^4.17.0",
     "@typescript-eslint/parser": "^4.15.1",
     "eslint-config-airbnb-typescript": "^12.3.1",
     "eslint-plugin-import": "^2.22.1",
@@ -40,14 +40,14 @@
     "typescript": "^4.1.5"
   },
   "devDependencies": {
-    "eslint": "^7.20.0",
-    "eslint-config-eslint": "^6.0.0",
+    "eslint": "^7.21.0",
+    "eslint-config-eslint": "^7.0.0",
     "husky": "^4.3.8",
     "lint-staged": "^10.5.4",
     "standard-version": "^9.1.1"
   },
   "peerDependencies": {
-    "eslint": "^7.12.0"
+    "eslint": "^7.21.0"
   },
   "husky": {
     "hooks": {
