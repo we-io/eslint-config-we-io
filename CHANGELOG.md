@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.2.2](https://github.com/we-io/eslint-config-we-io/compare/v4.0.5...v4.2.2) (2021-03-09)
+
 ### [4.0.5](https://github.com/we-io/eslint-config-we-io/compare/v4.0.3...v4.0.5) (2020-10-27)
 
 ### [4.0.4](https://github.com/we-io/eslint-config-we-io/compare/v4.0.3...v4.0.4) (2020-10-26)
