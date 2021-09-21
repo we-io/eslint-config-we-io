@@ -2,9 +2,7 @@
 
 ESLint config with the current coding style at we.io GmbH.
 
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-red.svg)](https://conventionalcommits.org)
 [![NPM version](https://img.shields.io/npm/v/@we.io/eslint-config)](https://www.npmjs.com/package/@we.io/eslint-config)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=we-io_eslint-config-we-io&metric=alert_status)](https://sonarcloud.io/dashboard?id=we-io_eslint-config-we-io)
 
 ## Install
 
