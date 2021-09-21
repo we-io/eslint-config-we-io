@@ -1,7 +1,7 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
   extends: [
-    'airbnb-typescript/base',
+    'airbnb-base',
   ],
   parserOptions: {
     ecmaVersion: 2019,
@@ -12,13 +12,13 @@ module.exports = {
     'import',
   ],
   env: {
-    'node': true,
+    node: true,
   },
   rules: {
     'linebreak-style': [
       'off',
     ],
-    'indent': 0,
+    indent: 0,
     '@typescript-eslint/indent': [
       'error',
       2,

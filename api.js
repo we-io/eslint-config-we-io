@@ -4,7 +4,8 @@
 module.exports = {
   extends: [
     'plugin:mocha/recommended',
-    'airbnb-typescript'
+    'airbnb-base',
+    'airbnb-typescript/base',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
