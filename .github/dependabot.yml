@@ -5,6 +5,6 @@ updates:
     schedule:
       interval: "weekly"
       day: "sunday"
-    target-branch: "main"
+    target-branch: "master"
     reviewers:
       - "bke-daniel"
