@@ -1,6 +1,6 @@
 {
   "name": "@we.io/eslint-config",
-  "version": "5.0.6",
+  "version": "5.0.7",
   "description": "we.io GmbH ESLint config",
   "main": "base.js",
   "repository": {
