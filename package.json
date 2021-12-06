@@ -29,26 +29,26 @@
     "lint:fix": "eslint --cache -c base.js --fix --ext .js '.'"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.31.2",
-    "@typescript-eslint/parser": "^4.31.2",
-    "eslint-config-airbnb-typescript": "^14.0.0",
-    "eslint-plugin-jest": "^24.4.2",
-    "typescript": "^4.4.3"
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@typescript-eslint/parser": "^5.5.0",
+    "eslint-config-airbnb-typescript": "^14.0.2",
+    "eslint-plugin-jest": "^25.3.0",
+    "typescript": "^4.5.2"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb": "^18.2.1",
+    "eslint": "^8.4.0",
+    "eslint-config-airbnb": "^19.0.2",
     "eslint-config-eslint": "^7.0.0",
-    "eslint-plugin-import": "^2.24.2",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.26.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
     "husky": "^4.3.8",
-    "lint-staged": "^11.1.2",
+    "lint-staged": "^12.1.2",
     "standard-version": "^9.3.1"
   },
   "peerDependencies": {
-    "eslint": "^7.32.0"
+    "eslint": "^8.4.0"
   },
   "husky": {
     "hooks": {
